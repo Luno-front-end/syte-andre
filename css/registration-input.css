@@ -1,0 +1,78 @@
+:root {
+  --color-text: rgb(255, 255, 255);
+  --color-hover: rgb(30, 255, 0);
+  --bg-color-button: rgb(0, 0, 0);
+}
+
+body {
+  background-image: url(../images/bg-reg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  font-family: Balsamiq Sans;
+}
+
+.general-a {
+  color: var(--color-text);
+  text-decoration: none;
+
+  font-family: Balsamiq Sans;
+}
+.btn {
+  background-color: var(--bg-color-button);
+  min-width: 150px;
+
+  display: inline-block;
+
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 12px;
+  margin-top: 20px;
+}
+.container-a .general-a:hover {
+  color: var(--color-hover);
+
+  display: inline-block;
+}
+.general-ul {
+  list-style: none;
+  padding-inline-start: 0px;
+}
+.container-a {
+  display: inline-flex;
+  flex-direction: column;
+}
+.registration {
+}
+.registration-container {
+  background-color: rgba(4, 53, 0, 0.493);
+
+  margin-top: 210px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 50px;
+
+  width: 720px;
+
+  text-align: center;
+}
+.registration-h {
+  color: var(--color-text);
+  margin-top: 0px;
+  padding-top: 50px;
+
+  font-weight: 700;
+  font-style: italic;
+}
+.registration-text {
+  color: var(--color-text);
+
+  font-weight: 400;
+  font-style: italic;
+}
+.registration-p {
+}
+.registration-input {
+}
