@@ -1,0 +1,53 @@
+:root {
+  --accent-color-text: #1dad00;
+}
+
+/* general options */
+
+body {
+  background-color: #ffffff;
+  color: black;
+  font-family: Balsamiq Sans, Arial, Helvetica, sans-serif;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.general-ul {
+  list-style: none;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.general-a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.global-a {
+  display: inline-block;
+}
+
+.general-p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.general-h {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.address {
+  font-style: normal;
+}
+
+/* header */
+
+.logo {
+  width: 100px;
+  height: 50px;
+  display: inline-block;
+  border-radius: 50%;
+}
