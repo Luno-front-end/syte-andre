@@ -5,20 +5,25 @@ body {
 }
 
 .container {
-  // width: 1200px;
   margin: 0 auto;
-  // padding-left: 15px;
-  // padding-right: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
 
   @media screen and (min-width: $mobile) {
     width: $mobile;
+  }
+  @media screen and (min-width: $tablets) {
+    width: $tablets;
+  }
+  @media screen and (min-width: $desctop) {
+    width: $desctop;
   }
 }
 .test {
   background-color: red;
   width: 100%;
   height: 250px;
-  // padding: 30px;
+  padding: 30px;
   margin: 0 auto;
   text-align: center;
 }
@@ -26,31 +31,28 @@ body {
   font-size: 30px;
 }
 
-// .general-ul {
-//   list-style: none;
-//   margin-top: 0px;
-//   margin-bottom: 0px;
-// }
-// .general-a {
-//   text-decoration: none;
-//   color: #000000;
-// }
+.general-ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.general-a {
+  text-decoration: none;
+  color: #000000;
+  display: inline-block;
+}
 
-// .global-a {
-//   display: inline-block;
-// }
-
-// .general-p {
-//   margin-top: 0px;
-//   margin-bottom: 0px;
-// }
-// .general-h {
-//   margin-top: 0px;
-//   margin-bottom: 0px;
-// }
-// .address {
-//   font-style: normal;
-// }
+.general-p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.general-h {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.address {
+  font-style: normal;
+}
 
 // .general-flex {
 //   display: flex;
