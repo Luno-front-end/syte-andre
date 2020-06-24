@@ -71,6 +71,12 @@ body {
   margin-left: auto;
 }
 
+@media screen and (min-width: 768px) {
+  .general-menu {
+    margin-left: 0px;
+  }
+}
+
 .popup-menu {
   background-color: teal;
 }
@@ -86,9 +92,21 @@ body {
   padding: 10px 30px;
 }
 
+@media screen and (min-width: 768px) {
+  .menu-a {
+    display: none;
+  }
+}
+
 .header {
   position: relative;
   border-bottom: 2px solid #cccccc;
+}
+
+@media screen and (min-width: 768px) {
+  .header {
+    position: static;
+  }
 }
 
 .popup-menuopen {
@@ -100,13 +118,38 @@ body {
   padding: 10px;
   opacity: 0;
   pointer-events: none;
-  pointer-events: none;
   -webkit-transform: scale(0.5) translateY(100%);
           transform: scale(0.5) translateY(100%);
   -webkit-transition: scale 250ms cubic-bezier(0.25, 0.46, 0.45, 0.94), -webkit-transform 250ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
   transition: scale 250ms cubic-bezier(0.25, 0.46, 0.45, 0.94), -webkit-transform 250ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
   transition: transform 250ms cubic-bezier(0.25, 0.46, 0.45, 0.94), scale 250ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
   transition: transform 250ms cubic-bezier(0.25, 0.46, 0.45, 0.94), scale 250ms cubic-bezier(0.25, 0.46, 0.45, 0.94), -webkit-transform 250ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+@media screen and (min-width: 768px) {
+  .popup-menuopen {
+    position: static;
+    background-color: #cccccc;
+    padding: 0;
+    opacity: 1;
+    pointer-events: all;
+    -webkit-transform: none;
+            transform: none;
+    -webkit-transition: none;
+    transition: none;
+    color: red;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .menu-list .general-a {
+    padding: 10px 20px;
+  }
 }
 
 .header .container {
